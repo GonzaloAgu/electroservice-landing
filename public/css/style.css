@@ -331,7 +331,11 @@ header .intro-text {
   padding-right: 8px;
 }
 #about img {
+  
+  border-radius: 20px;
+  border: 2px solid gray;
   width: 520px;
+  height: 500px;
   margin-top: 10px;
   background: #fff;
   border-right: 0;
