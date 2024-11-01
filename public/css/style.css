@@ -1,3 +1,12 @@
+:root {
+  --title-color:#f70707;
+}
+
+@font-face {
+  font-family: 'digital';
+  src: url('../fonts/fonts/DS-DIGIB.TTF') format('truetype');
+}
+
 body,
 html {
   font-family: "Open Sans", sans-serif;
@@ -81,10 +90,10 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
-  font-size: 24px;
+  font-family: "digital", sans-serif;
+  font-size: 45px;
   font-weight: 700;
-  color: #333;
+  color: var(--title-color);
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
@@ -204,6 +213,17 @@ a:focus,
   outline-offset: none;
 }
 /* Header Section */
+
+@keyframes main-title {
+  from {text-shadow: 0px 0px 9px rgba(192, 11, 11, 0.01);}
+  to {text-shadow: 0px 0px 15px rgba(192, 11, 11, 1);}
+}
+
+@keyframes main-subtitle {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
 .intro {
   display: table;
   width: 100%;
@@ -219,11 +239,19 @@ a:focus,
   background: rgba(0, 0, 0, 0.2);
 }
 .intro h1 {
-  font-family: "Raleway", sans-serif;
-  color: #fff;
-  font-size: 82px;
+  font-family: "digital", sans-serif;
+  color: var(--title-color);
+  font-size: 102px;
+
+  /* animation */
+  animation-name: main-title;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
   font-weight: 700;
   text-transform: uppercase;
+  text-shadow: #333;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -232,9 +260,16 @@ a:focus,
   color: #5ca9fb;
 }
 .intro p {
-  color: #fff;
-  font-size: 22px;
+  color: #202020;
+  font-size: 28px;
   font-weight: 300;
+  opacity: 0;
+  /* animation */
+  animation-name: main-subtitle;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards; 
+
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
