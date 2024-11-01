@@ -4,7 +4,7 @@
     "paragraph": "Reparación de audio y TV con satisfacción garantizada"
   },
   "About": {
-    "paragraph": "Llevamos más de 20 años brindando la mejor atención a los trelewenses que han sufrido un daño en sus electrodomésticos. Hoy contamos con una fiel clientela que confía en nosotros para ofrecerles la mejor solución.",
+    "paragraph": "Llevamos más de 20 años brindando la mejor atención a los trelewenses, esforzándonnos para darle una segunda vida a sus electrodomésticos. Hoy contamos con una fiel clientela que confía en nosotros para ofrecerles la mejor solución.",
     "Why": [
       "Televisores LED y LCD",
       "Monitores"
@@ -133,7 +133,7 @@
     }
   ],
   "Contact": {
-    "address": "Eduardo Price 19, Trelew, Chubut ",
+    "address": "Eduardo Price 19, Trelew, Chubut",
     "phone": "2804566096",
     "email": "electroservicetw@gmail.com",
     "facebook": "fb.com",
@@ -152,9 +152,9 @@
       "text": "Si tu equipo no tiene arreglo, te lo llevás sin abonar."
     },
     {
-      "icon": "fa fa-certificate",
-      "title": "Confianza",
-      "text": "Más de 20 años de experiencia en el rubro."
+      "icon": "fa fa-check",
+      "title": "Services oficiales",
+      "text": "Trabajamos en conjunto con los servicios ofrecidos por los fabricantes."
     }
   ]
 }
