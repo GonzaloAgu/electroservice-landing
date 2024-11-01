@@ -106,7 +106,7 @@
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"El mejor técnico de tv y audio en trelew lo conozco desde hace años y nunca me a defraudado. Honestidad y responsabilidad. Muy recomendable.\"",
+      "text": "El mejor técnico de tv y audio en trelew lo conozco desde hace años y nunca me ha defraudado. Honestidad y responsabilidad. Muy recomendable.",
       "name": "Victor Hugo"
     }
   ],
@@ -133,9 +133,9 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "Eduardo Price 19, Trelew, Chubut ",
+    "phone": "2804566096",
+    "email": "electroservicetw@gmail.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"

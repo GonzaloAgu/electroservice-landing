@@ -12,8 +12,8 @@ export default function Circuits() {
     >
       <defs>
         <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#148BB1" />
-          <stop offset="100%" stop-color="#DBE2E8" />
+          <stop offset="0%" stopColor="#148BB1" />
+          <stop offset="100%" stopColor="#DBE2E8" />
         </linearGradient>
       </defs>
       <g
@@ -21,14 +21,14 @@ export default function Circuits() {
         transform="translate(-1.000000, 0.000000)"
         className="path path-01"
         stroke="url(#linear)"
-        stroke-width="4"
+        strokeWidth="4"
         fill="none"
-        fill-rule="evenodd"
-        stroke-linecap="butt"
-        stroke-linejoin="round"
-        stroke-opacity="1"
-        stroke-dasharray="8,960,24,960,16,400"
-        stroke-dashoffset="6400"
+        fillRule="evenodd"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeOpacity="1"
+        strokeDasharray="8,960,24,960,16,400"
+        strokeDashoffset="6400"
       >
         <g id="C23" transform="translate(177.000000, 0.000000)">
           <polyline points="52 92 84 92 116 60 116 0"></polyline>
@@ -251,14 +251,14 @@ export default function Circuits() {
         transform="translate(599.000000, 0.000000)"
         className="path path-02"
         stroke="url(#linear)"
-        stroke-width="4"
+        strokeWidth="4"
         fill="none"
-        fill-rule="evenodd"
-        stroke-linecap="butt"
-        stroke-linejoin="round"
-        stroke-opacity="1"
-        stroke-dasharray="8,960,24,960,16,400"
-        stroke-dashoffset="6400"
+        fillRule="evenodd"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeOpacity="1"
+        strokeDasharray="8,960,24,960,16,400"
+        strokeDashoffset="6400"
       >
         <g id="C12" transform="translate(377.000000, 0.000000)">
           <polyline points="52 92 84 92 116 60 116 0"></polyline>
@@ -336,14 +336,14 @@ export default function Circuits() {
         transform="translate(1024.000000, 164.000000)"
         className="path path-03"
         stroke="url(#linear)"
-        stroke-width="4"
+        strokeWidth="4"
         fill="none"
-        fill-rule="evenodd"
-        stroke-linecap="butt"
-        stroke-linejoin="round"
-        stroke-opacity="1"
-        stroke-dasharray="8,960,24,960,16,400"
-        stroke-dashoffset="6400"
+        fillRule="evenodd"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeOpacity="1"
+        strokeDasharray="8,960,24,960,16,400"
+        strokeDashoffset="6400"
       >
         <g id="C11" transform="translate(8.000000, 0.000000)">
           <polyline points="48 52 195 52 228 85 228 176 300 248 372 248 392 228 432 228 464 260 516 260 520 256 520 248"></polyline>
@@ -451,14 +451,14 @@ export default function Circuits() {
         transform="translate(1532.000000, 115.000000)"
         className="path path-04"
         stroke="url(#linear)"
-        stroke-width="4"
+        strokeWidth="4"
         fill="none"
-        fill-rule="evenodd"
-        stroke-linecap="butt"
-        stroke-linejoin="round"
-        stroke-opacity="1"
-        stroke-dasharray="8,960,24,960,16,400"
-        stroke-dashoffset="6400"
+        fillRule="evenodd"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeOpacity="1"
+        strokeDasharray="8,960,24,960,16,400"
+        strokeDashoffset="6400"
       >
         <g id="C19">
           <polyline points="368 361 428 361 444.03122 344.96878 492 344.96878 539.000005 344.96878"></polyline>
@@ -549,14 +549,14 @@ export default function Circuits() {
         transform="translate(1908.000000, 0.000000)"
         className="path path-05"
         stroke="url(#linear)"
-        stroke-width="4"
+        strokeWidth="4"
         fill="none"
-        fill-rule="evenodd"
-        stroke-linecap="butt"
-        stroke-linejoin="round"
-        stroke-opacity="1"
-        stroke-dasharray="8,960,24,960,16,400"
-        stroke-dashoffset="6400"
+        fillRule="evenodd"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeOpacity="1"
+        strokeDasharray="8,960,24,960,16,400"
+        strokeDashoffset="6400"
       >
         <g id="C13">
           <polyline points="272 196 288 196 300 208 300 224 324 248 416 248 421 243 428 243"></polyline>
@@ -620,11 +620,11 @@ export default function Circuits() {
         id="static"
         transform="translate(48.000000, 56.000000)"
         stroke="#DDE0E2"
-        stroke-width="2"
+        strokeWidth="2"
         fill="none"
-        fill-rule="evenodd"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        fillRule="evenodd"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       >
         <rect x="132" y="0" width="48" height="48" rx="4"></rect>
         <circle cx="172" cy="200" r="4"></circle>
@@ -936,11 +936,11 @@ export default function Circuits() {
         id="paths-bg"
         transform="translate(0.000000, 0.000000)"
         stroke="#DDE0E2"
-        stroke-width="2"
+        strokeWidth="2"
         fill="none"
-        fill-rule="evenodd"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        fillRule="evenodd"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       >
         <g id="C23" transform="translate(176.000000, 0.000000)">
           <polyline id="path" points="52 92 84 92 116 60 116 0"></polyline>

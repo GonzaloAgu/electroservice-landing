@@ -1,5 +1,5 @@
 :root {
-  --title-color:#f70707;
+  --title-color:#df0a09;
 }
 
 @font-face {
@@ -215,11 +215,11 @@ a:focus,
 /* Header Section */
 
 @keyframes main-title {
-  from {text-shadow: 0px 0px 9px rgba(192, 11, 11, 0.01);}
-  to {text-shadow: 0px 0px 15px rgba(192, 11, 11, 0.8);}
+  from {text-shadow: 0px 0px 9px #df0a0903;}
+  to {text-shadow: 0px 0px 15px #df0a09cc;}
 }
 
-@keyframes main-subtitle {
+@keyframes fade-in {
   from {opacity: 0;}
   to {opacity: 1;}
 }
@@ -263,15 +263,25 @@ a:focus,
   font-weight: 300;
   opacity: 0;
   /* animation */
-  animation-name: main-subtitle;
+  animation-name: fade-in;
   animation-duration: 2s;
-  animation-delay: 0.5s;
+  animation-delay: 1s;
   animation-fill-mode: forwards; 
 
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
+
+.intro .btn {
+  opacity: 0;
+  /* animation */
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards; 
+}
+
 header .intro-text {
   margin: auto;
   padding-top: 350px;
