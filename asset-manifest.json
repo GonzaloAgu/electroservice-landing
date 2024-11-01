@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/electroservice-landing/static/css/main.0c222abd.css",
+    "main.js": "/electroservice-landing/static/js/main.b2bba72a.js",
+    "index.html": "/electroservice-landing/index.html",
+    "static/media/map-pin.svg": "/electroservice-landing/static/media/map-pin.616a7155e3b548eed01d9408901556de.svg",
+    "main.0c222abd.css.map": "/electroservice-landing/static/css/main.0c222abd.css.map",
+    "main.b2bba72a.js.map": "/electroservice-landing/static/js/main.b2bba72a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c222abd.css",
+    "static/js/main.b2bba72a.js"
+  ]
+}
