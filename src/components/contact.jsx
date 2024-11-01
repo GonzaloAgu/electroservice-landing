@@ -1,13 +1,6 @@
-import { useState } from "react";
-import emailjs from "emailjs-com";
 import React from "react";
 import Socials from "./socials";
 
-const initialState = {
-  name: "",
-  email: "",
-  message: "",
-};
 export const Contact = (props) => {
 
   

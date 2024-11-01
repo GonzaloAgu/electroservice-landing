@@ -22,7 +22,7 @@ export const Location = (props) => {
       popupAnchor: [1, -34],
     });
 
-    let marker = L.marker([-43.26577721547804, -65.28760083033546], {
+    L.marker([-43.26577721547804, -65.28760083033546], {
       icon: customIcon,
     }).addTo(map);
   }, []);
