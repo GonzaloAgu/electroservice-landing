@@ -6,6 +6,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "emailjs-com": "^2.6.4",
+    "gh-pages": "^6.2.0",
     "leaflet": "^1.9.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -16,8 +17,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://gonzaloagu.github.io/electroservice-landing/",
   "eslintConfig": {
     "extends": "react-app"
   },
