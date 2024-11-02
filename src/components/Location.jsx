@@ -31,23 +31,23 @@ export const Location = (props) => {
     <div
       id="location"
       className="text-center"
-      style={{paddingTop: "70px", marginTop: "-70px"}}
+      style={{ paddingTop: "70px", marginTop: "-70px" }}
     >
       <div className="container">
-        <div
-          className="col-md-12"
-          style={{ marginBottom: "0px" }}
-        >
-          <div className="col-md-10 col-md-offset-1 section-title" style={{marginBottom: "10px"}}>
+        <div className="row" style={{ marginBottom: "0px" }}>
+          <div
+            className="col-md-10 col-md-offset-1 section-title"
+            style={{ marginBottom: "10px" }}
+          >
             <h2 style={{ paddingTop: "40px" }}>¿Donde estamos?</h2>
+            <p>
+              Estamos en <b>Eduardo Price 19</b>, en la zona sur de la ciudad de{" "}
+              <b>Trelew</b>.
+            </p>
           </div>
         </div>
-          <p>
-            Estamos en <b>Eduardo Price 19</b>, en la zona sur de la ciudad de{" "}
-            <b>Trelew</b>.
-          </p>
-        <div id="map" style={{ width: "60vw", height: "70vh" }}></div>
       </div>
+            <div id="map"></div>
     </div>
   );
 };

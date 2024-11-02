@@ -239,7 +239,7 @@ a:focus,
 .intro h1 {
   font-family: "digital", sans-serif;
   color: var(--title-color);
-  font-size: 102px;
+  font-size: 7vw;
 
   /* animation */
   animation-name: main-title;
@@ -259,7 +259,7 @@ a:focus,
 }
 .intro p {
   color: #202020;
-  font-size: 28px;
+  font-size: 2vw;
   font-weight: 300;
   opacity: 0;
   /* animation */
@@ -271,6 +271,16 @@ a:focus,
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
+}
+
+@media screen and (max-width: 600px) {
+  .intro h1 {
+    font-size: 50px;
+  }
+
+  .intro p {
+    font-size: 20px;
+  }
 }
 
 .intro .btn {
@@ -326,6 +336,13 @@ header .intro-text {
 #location p {
   font-size: 24px;
   margin-bottom: 30px;
+}
+
+#map {
+  width: 80vw;
+  min-width: 400px;
+  height: 60vh;
+  margin: auto;
 }
 
 /* About Section */
