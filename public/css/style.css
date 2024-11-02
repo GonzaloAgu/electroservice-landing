@@ -273,7 +273,7 @@ a:focus,
 }
 .intro p {
   color: #202020;
-  font-size: 2vw;
+  font-size: 3rem;
   font-weight: 300;
   opacity: 0;
   /* animation */
@@ -287,13 +287,13 @@ a:focus,
   margin-bottom: 60px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .intro h1 {
-    font-size: 50px;
+    font-size: 10vw;
   }
 
   .intro p {
-    font-size: 20px;
+    font-size: 4vw;
   }
 }
 
