@@ -7,7 +7,6 @@ import { Testimonials } from "./components/testimonials";
 import { Location } from "./components/Location";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
-import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import Circuits from "./components/Circuits";
 
