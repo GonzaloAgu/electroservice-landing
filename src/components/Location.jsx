@@ -10,7 +10,7 @@ export const Location = (props) => {
       17
     );
     L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 19,
+      maxZoom: 15,
       attribution:
         '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     }).addTo(map);
@@ -31,8 +31,7 @@ export const Location = (props) => {
   return (
     <div
       id="location"
-      className="text-center"
-      style={{ paddingTop: "60px", marginTop: "-60px" }}
+      className="section text-center"
     >
       <div className="container">
         <div className="row" style={{ marginBottom: "0px" }}>

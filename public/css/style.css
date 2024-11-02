@@ -82,6 +82,11 @@ hr {
   margin-bottom: 20px;
   border: 0;
 }
+
+.section {
+  padding: 100px 0;
+}
+
 /* Navigation */
 #menu {
   padding: 15px;
@@ -355,9 +360,7 @@ header .intro-text {
 }
 
 /* About Section */
-#about {
-  padding: 100px 0;
-}
+
 #about h3 {
   font-size: 22px;
   margin: 0 0 20px;
