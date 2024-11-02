@@ -95,56 +95,32 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
+      "img": "img/user.png",
       "text": "Servicio de reparación de televisores que me han arreglado tv supestamente sin arreglo por otros services. Muy serio y reparación rápida.  Totalmente recomendable. Trabaja también con informes del seguro de hogar.",
       "name": "Lucas"
     },
     {
-      "img": "img/testimonials/06.jpg",
+      "img": "img/user.png",
       "text": "\"Excelente atención muy recomendable.\"",
       "name": "Carmen"
     },
     {
-      "img": "img/testimonials/03.jpg",
+      "img": "img/user.png",
       "text": "El mejor técnico de tv y audio en trelew lo conozco desde hace años y nunca me ha defraudado. Honestidad y responsabilidad. Muy recomendable.",
-      "name": "Victor Hugo"
-    }
-  ],
-  "Team": [
-    {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Victor"
     }
   ],
   "Contact": {
     "address": "Eduardo Price 19, Trelew, Chubut",
     "phone": "2804566096",
     "email": "electroservicetw@gmail.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "schedule": "Lunes a viernes de 8:30hs a 14:30hs"
   },
   "Features": [
     {
       "icon": "fa fa-shield",
       "title": "Garantía de reparación",
-      "text": "Al retirar tu producto, contás con 6 meses de garantía."
+      "text": "Al retirar tu producto, contás con 3 meses de garantía."
     },
     {
       "icon": "fa fa-search",

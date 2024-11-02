@@ -10,8 +10,8 @@
   
   /* for all social containers*/
   .socialContainer {
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
     background: none;
     display: flex;
     border-radius: 35%;
@@ -19,7 +19,6 @@
     justify-content: center;
     overflow: hidden;
     transition-duration: .3s;
-    margin-right: 40px;
   }
   /* instagram*/
   .containerOne:hover {
@@ -43,7 +42,7 @@
   }
   
   .socialSvg {
-    width: 60px;
+    width: 50px;
   }
   
   .socialSvg path {

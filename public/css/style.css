@@ -16,6 +16,9 @@ html {
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 h2,
 h3,
@@ -79,6 +82,11 @@ hr {
   margin-bottom: 20px;
   border: 0;
 }
+
+.section {
+  padding: 100px 0;
+}
+
 /* Navigation */
 #menu {
   padding: 15px;
@@ -91,7 +99,7 @@ hr {
 }
 #menu a.navbar-brand {
   font-family: "digital", sans-serif;
-  font-size: 45px;
+  font-size: 3rem;
   font-weight: 700;
   color: var(--title-color);
   text-transform: uppercase;
@@ -239,7 +247,7 @@ a:focus,
 .intro h1 {
   font-family: "digital", sans-serif;
   color: var(--title-color);
-  font-size: 102px;
+  font-size: 10rem;
 
   /* animation */
   animation-name: main-title;
@@ -252,6 +260,12 @@ a:focus,
   text-shadow: #333;
   margin-top: 0;
   margin-bottom: 10px;
+
+  /*Title not selectable*/
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 .intro h1 span {
   font-weight: 800;
@@ -259,7 +273,7 @@ a:focus,
 }
 .intro p {
   color: #202020;
-  font-size: 28px;
+  font-size: 3rem;
   font-weight: 300;
   opacity: 0;
   /* animation */
@@ -271,6 +285,16 @@ a:focus,
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro h1 {
+    font-size: 10vw;
+  }
+
+  .intro p {
+    font-size: 4vw;
+  }
 }
 
 .intro .btn {
@@ -328,10 +352,15 @@ header .intro-text {
   margin-bottom: 30px;
 }
 
-/* About Section */
-#about {
-  padding: 100px 0;
+#map {
+  width: 80vw;
+  min-width: 400px;
+  height: 60vh;
+  margin: auto;
 }
+
+/* About Section */
+
 #about h3 {
   font-size: 22px;
   margin: 0 0 20px;
@@ -625,8 +654,29 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   #about img {
-    margin: 50px 0;
+    margin-bottom: 4rem;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  #about h2::after {
+    left: 50%;
+    margin-left: -30px;
+  }
+
+  #contact h2 {
+    margin-left: auto;
+  }
+
+  .contact-col {
+    text-align: center;
+  }
+  .contact-col .card {
+    margin: auto;
   }
 }
+

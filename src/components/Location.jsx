@@ -10,7 +10,7 @@ export const Location = (props) => {
       17
     );
     L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 19,
+      maxZoom: 15,
       attribution:
         '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     }).addTo(map);
@@ -25,29 +25,32 @@ export const Location = (props) => {
     L.marker([-43.26577721547804, -65.28760083033546], {
       icon: customIcon,
     }).addTo(map);
+    map.scrollWheelZoom.disable();
   }, []);
 
   return (
     <div
       id="location"
-      className="text-center"
-      style={{paddingTop: "70px", marginTop: "-70px"}}
+      className="section text-center"
     >
       <div className="container">
-        <div
-          className="col-md-12"
-          style={{ marginBottom: "0px" }}
-        >
-          <div className="col-md-10 col-md-offset-1 section-title" style={{marginBottom: "10px"}}>
-            <h2 style={{ paddingTop: "40px" }}>¿Donde estamos?</h2>
+        <div className="row" style={{ marginBottom: "0px" }}>
+          <div
+            className="col-md-10 col-md-offset-1 section-title"
+            style={{ marginBottom: "10px" }}
+          >
+            <h2>¿Donde estamos?</h2>
+            <p>
+              <b>Eduardo Price 19</b>, en la zona sur de la ciudad de{" "}
+              <b>Trelew</b>.
+            </p>
+            <p>
+              Nos encontrás entre las <b>8:30 y 14:30</b> de <b>lunes a viernes</b>.
+            </p>
           </div>
         </div>
-          <p>
-            Estamos en <b>Eduardo Price 19</b>, en la zona sur de la ciudad de{" "}
-            <b>Trelew</b>.
-          </p>
-        <div id="map" style={{ width: "60vw", height: "70vh" }}></div>
       </div>
+            <div id="map"></div>
     </div>
   );
 };
