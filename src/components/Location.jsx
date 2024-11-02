@@ -32,7 +32,7 @@ export const Location = (props) => {
     <div
       id="location"
       className="text-center"
-      style={{ paddingTop: "70px", marginTop: "-70px" }}
+      style={{ paddingTop: "60px", marginTop: "-60px" }}
     >
       <div className="container">
         <div className="row" style={{ marginBottom: "0px" }}>
@@ -40,10 +40,13 @@ export const Location = (props) => {
             className="col-md-10 col-md-offset-1 section-title"
             style={{ marginBottom: "10px" }}
           >
-            <h2 style={{ paddingTop: "40px" }}>¿Donde estamos?</h2>
+            <h2>¿Donde estamos?</h2>
             <p>
-              Estamos en <b>Eduardo Price 19</b>, en la zona sur de la ciudad de{" "}
+              <b>Eduardo Price 19</b>, en la zona sur de la ciudad de{" "}
               <b>Trelew</b>.
+            </p>
+            <p>
+              Nos encontrás entre las <b>8:30 y 14:30</b> de <b>lunes a viernes</b>.
             </p>
           </div>
         </div>

@@ -33,9 +33,9 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Teléfono
+                  <i className="fa fa-clock-o"></i> Horario de atención
                 </span>{" "}
-                {props.data ? props.data.phone : "loading"}
+                {props.data ? props.data.schedule : "loading"}
               </p>
             </div>
             <div className="contact-item">
