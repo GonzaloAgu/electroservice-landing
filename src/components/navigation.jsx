@@ -38,11 +38,6 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href="#testimonials">
-                Opiniones
-              </a>
-            </li>
-            <li>
               <a href="#contact">
                 Contacto
               </a>

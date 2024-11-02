@@ -667,5 +667,16 @@ label {
     left: 50%;
     margin-left: -30px;
   }
+
+  #contact h2 {
+    margin-left: auto;
+  }
+
+  .contact-col {
+    text-align: center;
+  }
+  .contact-col .card {
+    margin: auto;
+  }
 }
 
