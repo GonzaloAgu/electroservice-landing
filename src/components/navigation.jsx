@@ -17,7 +17,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
+          <a className="navbar-brand" href="#page-top">
             ELECTROSERVICE
           </a>{" "}
         </div>
@@ -28,27 +28,22 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll">
-               ¿Qué ofrecemos?
-              </a>
-            </li>
-            <li>
-              <a href="#about" className="page-scroll">
+              <a href="#about">
                 Sobre nosotros
               </a>
             </li>
             <li>
-              <a href="#location" className="page-scroll">
+              <a href="#location">
                 Ubicación
               </a>
             </li>
             <li>
-              <a href="#testimonials" className="page-scroll">
+              <a href="#testimonials">
                 Opiniones
               </a>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
+              <a href="#contact">
                 Contacto
               </a>
             </li>
