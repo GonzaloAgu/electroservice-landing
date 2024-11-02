@@ -654,8 +654,18 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   #about img {
-    margin: 50px 0;
+    margin-bottom: 4rem;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  #about h2::after {
+    left: 50%;
+    margin-left: -30px;
   }
 }
+
