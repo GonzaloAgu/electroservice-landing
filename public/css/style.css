@@ -16,6 +16,8 @@ html {
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 h2,
 h3,
@@ -91,7 +93,7 @@ hr {
 }
 #menu a.navbar-brand {
   font-family: "digital", sans-serif;
-  font-size: 45px;
+  font-size: 3rem;
   font-weight: 700;
   color: var(--title-color);
   text-transform: uppercase;
@@ -239,7 +241,7 @@ a:focus,
 .intro h1 {
   font-family: "digital", sans-serif;
   color: var(--title-color);
-  font-size: 7vw;
+  font-size: 10rem;
 
   /* animation */
   animation-name: main-title;
@@ -252,6 +254,12 @@ a:focus,
   text-shadow: #333;
   margin-top: 0;
   margin-bottom: 10px;
+
+  /*Title not selectable*/
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 .intro h1 span {
   font-weight: 800;

@@ -6,15 +6,18 @@ html {
     height: 100%;
   }
   .circuit-container {
-    position: fixed;
+    position: absolute;
     width: 100vw;
     height: 90vh;
     z-index: -9;
     bottom: 50%;
     right: 50%;
     transform: translate(50%, 50%);
+    overflow: clip;
   }
   svg.circuit-path {
+    height: 500vh;
+    width: 100vw;
     opacity: 0.5;
   }
   .path {
@@ -36,15 +39,6 @@ html {
   .path-05 {
     animation-delay: 4s;
   }
-  
-  @media screen and (min-width: 768px) {
-    svg.circuit-path {
-      height: 500vh;
-      width: 100vw;
-    }
-  }
-  
-  
   
   @keyframes draw {
     0% {
