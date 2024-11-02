@@ -56,6 +56,7 @@ export const Contact = (props) => {
             <a href="http://www.templatewire.com" rel="nofollow">
               TemplateWire
             </a>
+             - <a href="https://www.flaticon.com/free-icons/avatar" title="avatar icons">Avatar icons created by kmg design - Flaticon</a>
           </p>
         </div>
       </div>

@@ -6,6 +6,7 @@ export const Testimonials = (props) => {
       <div className="container">
         <div className="section-title text-center">
           <h2>Lo que nuestros clientes dicen</h2>
+          <p>Estos comentarios recibimos en Google Maps.</p>
         </div>
         <div className="row">
           {props.data

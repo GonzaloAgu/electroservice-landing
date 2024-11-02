@@ -95,19 +95,19 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
+      "img": "img/user.png",
       "text": "Servicio de reparación de televisores que me han arreglado tv supestamente sin arreglo por otros services. Muy serio y reparación rápida.  Totalmente recomendable. Trabaja también con informes del seguro de hogar.",
       "name": "Lucas"
     },
     {
-      "img": "img/testimonials/06.jpg",
+      "img": "img/user.png",
       "text": "\"Excelente atención muy recomendable.\"",
       "name": "Carmen"
     },
     {
-      "img": "img/testimonials/03.jpg",
+      "img": "img/user.png",
       "text": "El mejor técnico de tv y audio en trelew lo conozco desde hace años y nunca me ha defraudado. Honestidad y responsabilidad. Muy recomendable.",
-      "name": "Victor Hugo"
+      "name": "Victor"
     }
   ],
   "Team": [
