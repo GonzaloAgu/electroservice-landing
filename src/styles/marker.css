@@ -1,97 +1,102 @@
 .marker-container {
-    position: relative;
-    top: 15rem;
-    left: 50%;
-    margin-left: -17rem;
+  position: relative;
+  top: 15rem;
+  left: 50%;
+  margin-left: -17rem;
+
 }
 
+
+
 .marker {
-    width: 28px;
-    height: 28px;
-    display: block;
-    box-sizing: border-box;
+  width: 28px;
+  height: 28px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.marker::after {
+  content: "";
+  width: 22px;
+  height: 22px;
+  left: 0;
+  bottom: 1;
+  position: absolute;
+  border-radius: 50% 50% 0;
+  border: 7px solid #555;
+  transform: rotate(45deg) translate(0, 0);
+  box-sizing: border-box;
+  animation: animMarker 2s ease-in-out infinite alternate;
+}
+
+.address {
+  color: #777;
+  font-size: 2.3rem;
+  line-height: 2.1rem;
+  font-weight: 700;
+  margin-left: 4rem;
+  animation: animAddress 2s ease-in-out infinite alternate;
+  text-shadow: 0 0 3rem #faf9f9;
+  transition-property: all;
+  transition-duration: 0.2s;
+
+  &:hover {
+    font-size: 2.35rem;
+    margin-left: 3.8rem;
+  }
+}
+
+@keyframes animMarker {
+  0% {
+    transform: rotate(45deg) translate(2px, 2px);
+  }
+
+  100% {
+    transform: rotate(45deg) translate(-2px, -2px);
+  }
+}
+
+
+@keyframes animAddress {
+  0% {
+    transform: translate(0, 2.8284px);
+  }
+
+  100% {
+    transform: translate(0, -2.8284px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .address {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+
+    &:hover {
+        font-size: 1.32rem;
+      }
+  }
+  .marker-container {
+    margin-left: -12rem;
   }
 
   .marker::after {
-    content: '';
-    width: 22px;
-    height: 22px;
-    left: 0;
+    width: 16px;
+    height: 16px;
+    left: 1rem;
     bottom: 1;
     position: absolute;
     border-radius: 50% 50% 0;
-    border: 7px solid #333;
-    transform: rotate(45deg) translate(0, 0);
-    box-sizing: border-box;
-    animation: animMarker 2s ease-in-out infinite alternate;
+    border-width: 6px;
   }
 
-
-  @keyframes animMarker {
-    0% {
-      transform: rotate(45deg) translate(2px, 2px);
-    }
-
-    100% {
-      transform: rotate(45deg) translate(-2px, -2px);
-    }
+  .marker::before {
+    position: absolute;
+    margin: auto;
+    top: 130%;
+    left: 0.32rem;
+    width: 24px;
+    height: 4px;
+    border-radius: 50%;
   }
-
-  @keyframes animShadow {
-    0% {
-      transform: scale(1);
-    }
-
-    100% {
-      transform: scale(0.8);
-    }
-  }
-
-  @keyframes animAddress {
-    0% {
-        transform: translate(0, 2.8284px);
-      }
-  
-      100% {
-        transform: translate(0, -2.8284px);
-      }
-  }
-
-  .address {
-    font-size: 2.3rem;
-    line-height: 2.1rem;
-    font-weight: 700;
-    margin-left: 4rem;
-    animation: animAddress 2s ease-in-out infinite alternate;
-    text-shadow: 0 0 3rem #faf9f9;
-  }
-
-  @media screen and (max-width: 768px) {
-    .address {
-        font-size: 1.3rem;
-        line-height: 1.5rem;
-    }
-    .marker-container {
-        margin-left: -12rem;
-    }
-
-    .marker::after {
-        width: 16px;
-        height: 16px;
-        left: 1rem;
-        bottom: 1;
-        position: absolute;
-        border-radius: 50% 50% 0;
-        border-width: 6px;
-      }
-    
-      .marker::before {
-        position: absolute;
-        margin: auto;
-        top: 130%;
-        left: 0.32rem;
-        width: 24px;
-        height: 4px;
-        border-radius: 50%;
-      }
-  }
+}
