@@ -1,4 +1,5 @@
 import React from "react";
+import AddressPopup from "./LocationMarker"
 
 export const Header = (props) => {
   return (
@@ -6,6 +7,7 @@ export const Header = (props) => {
       <div className="intro">
         <div className="overlay">
           <div className="container">
+            <AddressPopup/>
             <div className="row">
               <div className="intro-text">
                 <h1>

@@ -55,7 +55,7 @@
   
   @keyframes slide-in-top {
     0% {
-      transform: translateY(-50px);
+      transform: translateY(-10px);
       opacity: 0;
     }
   
