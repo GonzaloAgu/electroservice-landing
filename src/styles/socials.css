@@ -22,17 +22,17 @@
   }
   /* instagram*/
   .containerOne:hover {
-    background-color: #d62976;
+    background-color: #d629777b;
     transition-duration: .3s;
   }
   /* facebook*/
   .containerThree:hover {
-    background-color: #0072b1;
+    background-color: #0072b14b;
     transition-duration: .3s;
   }
   /* Whatsapp*/
   .containerFour:hover {
-    background-color: #128C7E;
+    background-color: #128c224b;
     transition-duration: .3s;
   }
   
@@ -55,7 +55,7 @@
   
   @keyframes slide-in-top {
     0% {
-      transform: translateY(-10px);
+      transform: translateY(-5px);
       opacity: 0;
     }
   
