@@ -691,11 +691,11 @@ label {
 @keyframes backdrop {
   0% {
     opacity: 0;
-    transform: translateY(-4rem);
+    top: -2rem;
   }
   100% {
     opacity: 1;
-    transform: translateY(0rem);
+    top: 2rem;
   }
 }
 
@@ -706,34 +706,34 @@ label {
 }
 
 .modal-whatsapp {
-  animation: backdrop;
-  animation-duration: 0.2s;
-  animation-timing-function: ease-in-out;
+  animation: backdrop 0.2s ease-in-out;
   position: absolute;
   padding: 3rem;
   left: 50%;
-  top: 10rem;
-  margin-left: -40vh;
+  top: 2rem;
+  transform: translateX(-50%);
   background-color: #f3f3f3;
   z-index: 10;
   height: fit-content;
-  width: 80vh;
-  min-width: 400px;
+  width: 80%;
+  max-width: 80vh;
+  min-width: 200px;
   border-radius: 4rem;
   box-shadow: 0px 0px 10px #444;
-  transition-property: all;
-  transition-duration: 0.5s;
+  transition: all 0.5s;
 }
+
 
 
 
 .modal-whatsapp .close-btn {
   position: absolute;
-  left: 92%;
+  top: 1.6rem;
+  right: 1.4rem;
   background: none;
   width: 3.5rem;
   height: 3.5rem;
-  padding: 0.7rem;
+  padding: 0rem 1.15rem;
   border: 0;
   border-radius: 50%;
 }
@@ -754,21 +754,31 @@ label {
 .modal-whatsapp .form {
   border-top: 1px solid #999;
   margin-top: 2.5rem;
-  padding: 2rem;
+  padding: 2rem 0rem;
   display: flex;
   flex-direction: column;
 }
 
 .modal-whatsapp .form label {
+  color: #202020;
   margin-top: 2rem;
-  font-size: 1.5rem;
+  margin-left: 0.2rem;
+  font-size: 1.8rem;
 }
 
-.modal-whatsapp input {
+
+.modal-whatsapp input,
+.modal-whatsapp textarea {
+  font-size: 1.7rem;
+  color: #333;
   height: 4rem;
   border: 1px solid #ccc;
-  border-radius: 2rem;
+  border-radius: 0.8rem;
   padding: 0.9rem
+}
+
+.modal-whatsapp textarea {
+  height: 10rem;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -781,4 +791,10 @@ label {
 /* Firefox */
 .modal-whatsapp input[type=number] {
   -moz-appearance: textfield;
+}
+
+.modal-whatsapp .send-btn {
+  margin-top: 1.2rem;
+  border-radius: 1rem;
+  font-size: 2rem;
 }
