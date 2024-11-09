@@ -7,7 +7,7 @@ export default function WhatsappModal({show, onClose}) {
             <button className="close-btn" onClick={onClose}><i className="fa fa-times" aria-hidden="true"></i></button>
             <div>
                 <h3>Consulta rápida por WhatsApp</h3>
-                <p>Este formulario generará un mensaje para enviarnos (se abrirá WhatsApp con el mensaje armado).</p>
+                <p>Este formulario generará un mensaje para enviarnos (se abrirá WhatsApp con el mensaje armado y listo para enviar).</p>
                 <p>Si bien los campos son opcionales, ingrese toda la información posible para obtener una mejor respuesta.</p>
             </div>
             <div className="form">

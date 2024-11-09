@@ -716,7 +716,7 @@ label {
   z-index: 10;
   height: fit-content;
   width: 80%;
-  max-width: 80vh;
+  max-width: 80rem;
   min-width: 200px;
   border-radius: 4rem;
   box-shadow: 0px 0px 10px #444;
@@ -781,6 +781,7 @@ label {
   height: 10rem;
 }
 
+/* Flechitas del campo nº de remito */
 /* Chrome, Safari, Edge, Opera */
 .modal-whatsapp input::-webkit-outer-spin-button,
 .modal-whatsapp input::-webkit-inner-spin-button {
