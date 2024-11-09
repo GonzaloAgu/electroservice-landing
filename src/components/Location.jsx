@@ -10,7 +10,7 @@ export const Location = (props) => {
       17
     );
     L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 15,
+      setZoom: 15,
       attribution:
         '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     }).addTo(map);
@@ -26,6 +26,8 @@ export const Location = (props) => {
       icon: customIcon,
     }).addTo(map);
     map.scrollWheelZoom.disable();
+
+    return () => map.remove();
   }, []);
 
   return (
