@@ -52,7 +52,7 @@ export const Location = (props) => {
           </div>
         </div>
       </div>
-            <div id="map"></div>
+            <div id="map" style={{zIndex: 3}}></div>
     </div>
   );
 };

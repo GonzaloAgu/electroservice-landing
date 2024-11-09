@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import AddressPopup from "./LocationMarker"
+import WhatsappModal from "./WhatsappModal";
 
 export const Header = (props) => {
+  const [showWappModal, setShowWappModal] = useState(false);
+
+  const handleConsultaBtn = () => setShowWappModal(true);
+  const handleCloseBtn = () => setShowWappModal(false)
   return (
     <header id="header">
+      <WhatsappModal show={showWappModal} onClose={handleCloseBtn}/>
       <div className="intro">
         <div className="overlay">
           <div className="container">
@@ -20,6 +26,13 @@ export const Header = (props) => {
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   ¡Conocenos!
+                </a>{" "}
+                <a
+                  id="consulta-btn"
+                  className="btn btn-custom btn-lg page-scroll"
+                  onClick={handleConsultaBtn}
+                >
+                  <i className="fa fa-whatsapp" aria-hidden="true"></i> Consultas
                 </a>{" "}
               </div>
             </div>
