@@ -27,13 +27,13 @@ export const Header = (props) => {
                 >
                   ¡Conocenos!
                 </a>{" "}
-                <a href="#"
+                <button 
                   id="consulta-btn"
                   className="btn btn-custom btn-lg page-scroll"
                   onClick={handleConsultaBtn}
                 >
                   <i className="fa fa-television" aria-hidden="true"></i> mi reparación
-                </a>{" "}
+                </button>{" "}
               </div>
             </div>
           </div>
