@@ -55,7 +55,7 @@ export default function WhatsappModal({show, onClose}) {
                 <label>Nombre</label>
                 <input type="text" name="nombre" required value={formData.nombre} onChange={changeHandler}></input>
                 <label>Nº de remito <span className="optional">(opcional)</span></label>
-                <input type="number" name="remito" value={formData.remito} onChange={changeHandler}></input>
+                <input type="number" name="remito" value={formData.remito} onChange={changeHandler} placeholder="Número provisto al llevar su producto"></input>
                 <label>Producto <span className="optional">(opcional)</span></label>
                 <input type="text" name="producto" value={formData.producto} placeholder="ej: LED Samsung T4300" onChange={changeHandler}></input>
 
