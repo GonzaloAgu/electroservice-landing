@@ -722,7 +722,7 @@ label {
   position: absolute;
   padding: 3rem;
   left: 50%;
-  top: 2rem;
+  top: 0.5rem;
   transform: translateX(-50%);
   background-color: #f3f3f3;
   z-index: 10;
