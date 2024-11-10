@@ -27,7 +27,7 @@ export const Header = (props) => {
                 >
                   ¡Conocenos!
                 </a>{" "}
-                <a
+                <a href="#"
                   id="consulta-btn"
                   className="btn btn-custom btn-lg page-scroll"
                   onClick={handleConsultaBtn}
