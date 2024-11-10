@@ -20,7 +20,7 @@ export default function WhatsappModal({show, onClose}) {
     const submitHandler = event => {
         event.preventDefault();
         const baseURI = 'https://wa.me/542804566096/?text='
-        let text = `${formData.consulta}\n\n`
+        let text = ``
 
         if(formData.remito)
             text = text.concat(
@@ -34,6 +34,9 @@ export default function WhatsappModal({show, onClose}) {
             text = text.concat(
                 `*Producto*: ${formData.producto}\n`
             )
+
+        text = text.concat(`\n${formData.consulta}`)
+        
         const URI = baseURI + encodeURIComponent(text)
         window.open(URI, '_blank')
     }
