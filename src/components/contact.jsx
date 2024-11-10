@@ -10,7 +10,7 @@ export const Contact = (props) => {
             <div
               className="col-md-8 contact-col"
             >
-              <h2>Contactanos</h2>
+              <h2>Encontranos</h2>
               <Socials></Socials>
             </div>
             <div
