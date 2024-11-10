@@ -1,5 +1,43 @@
+import { useState } from "react";
 
 export default function WhatsappModal({show, onClose}) {
+
+    const [formData, setFormData] = useState({
+        nombre: '',
+        remito: '',
+        producto: '',
+        consulta: ''
+    })
+
+    const changeHandler = event => {
+        const { name, value } = event.target;
+        setFormData((prevData) => ({
+            ...prevData,
+            [name]: value
+          }));
+    }
+
+    const submitHandler = event => {
+        event.preventDefault();
+        const baseURI = 'https://wa.me/542804566096/?text='
+        let text = `${formData.consulta}\n\n`
+
+        if(formData.remito)
+            text = text.concat(
+                `*Nº Remito*: ${formData.remito}\n`
+            )
+        if(formData.nombre)
+            text = text.concat(
+                `*Cliente*: ${formData.nombre}\n`
+            )
+        if(formData.producto)
+            text = text.concat(
+                `*Producto*: ${formData.producto}\n`
+            )
+        const URI = baseURI + encodeURIComponent(text)
+        window.open(URI, '_blank')
+    }
+
     return (
         <>
         {show && <div className="mask"></div>}
@@ -10,18 +48,20 @@ export default function WhatsappModal({show, onClose}) {
                 <p>Este formulario generará un mensaje para enviarnos (se abrirá WhatsApp con el mensaje armado y listo para enviar).</p>
                 <p>Si bien los campos son opcionales, ingrese toda la información posible para obtener una mejor respuesta.</p>
             </div>
-            <div className="form">
-                <label>Nº de remito</label>
-                <input type="number"></input>
-                <label>Tipo de producto</label>
-                <input type="text" placeholder="ej: televisor"></input>
-                <label>Marca y modelo</label>
-                <input type="text" placeholder="ej: Samsung T4300"></input>
+            <form className="form" onSubmit={submitHandler}>
+                <label>Nombre</label>
+                <input type="text" name="nombre" required value={formData.nombre} onChange={changeHandler}></input>
+                <label>Nº de remito <span className="optional">(opcional)</span></label>
+                <input type="number" name="remito" value={formData.remito} onChange={changeHandler}></input>
+                <label>Producto <span className="optional">(opcional)</span></label>
+                <input type="text" name="producto" value={formData.producto} placeholder="ej: LED Samsung T4300" onChange={changeHandler}></input>
 
                 <label>Consulta</label>
-                <textarea placeholder="ej: Hola, ¿ya está mi producto disponible para su retiro?" rows={10}></textarea>
-                <button className="btn btn-success send-btn"><i className="fa fa-whatsapp" aria-hidden="true" style={{fontSize: '2rem'}}></i> Enviar</button>
-            </div>
+                <textarea value={formData.consulta} name="consulta" onChange={changeHandler} required placeholder="ej: Hola, ¿ya está mi producto disponible para su retiro?" rows={10}></textarea>
+                <button type="submit" className="btn btn-success send-btn">
+                    <i className="fa fa-whatsapp" aria-hidden="true" style={{ fontSize: '2rem' }}></i> Enviar
+                </button>
+            </form>
         </div>
         </>
     );

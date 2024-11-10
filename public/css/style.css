@@ -292,6 +292,10 @@ a:focus,
     font-size: 10vw;
   }
 
+  .modal-whatsapp {
+    width: 98% !important
+  }
+
   .intro p {
     font-size: 4vw;
   }

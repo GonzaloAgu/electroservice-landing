@@ -9,7 +9,6 @@ import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import "./App.css";
 import Circuits from "./components/Circuits";
-import WhatsappModal from "./components/WhatsappModal";
 
 
 const App = () => {

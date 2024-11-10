@@ -32,7 +32,7 @@ export const Header = (props) => {
                   className="btn btn-custom btn-lg page-scroll"
                   onClick={handleConsultaBtn}
                 >
-                  <i className="fa fa-whatsapp" aria-hidden="true"></i> Consultas
+                  <i className="fa fa-whatsapp" aria-hidden="true"></i> mi reparación
                 </a>{" "}
               </div>
             </div>
