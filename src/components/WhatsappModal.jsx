@@ -43,7 +43,7 @@ export default function WhatsappModal({show, onClose}) {
 
     return (
         <>
-        {show && <div className="mask"></div>}
+        {show && <div className="mask" onClick={onClose}></div>}
         <div className={`modal-whatsapp ${!show && 'd-none'}`}>
             <button className="close-btn" onClick={onClose}><i className="fa fa-times" aria-hidden="true"></i></button>
             <div>
