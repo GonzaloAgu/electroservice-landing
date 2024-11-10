@@ -788,7 +788,8 @@ label {
   padding: 0.9rem
 }
 
-.modal-whatsapp input::placeholder {
+.modal-whatsapp input::placeholder, 
+.modal-whatsapp textarea::placeholder {
   font-size: 1.4rem;
 }
 
