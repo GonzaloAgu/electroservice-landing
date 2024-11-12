@@ -25,17 +25,17 @@ export const Navigation = (props) => {
       <ul className="navbar-nav ms-auto">
         <li className="nav-item">
           <a className="nav-link" href="#about">
-            Sobre nosotros
+            SOBRE NOSOTROS
           </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#location">
-            Ubicación
+            UBICACIÓN
           </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#contact">
-            Contacto
+            CONTACTO
           </a>
         </li>
       </ul>

@@ -18,7 +18,7 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div >
       <Circuits/>
       <Navigation />
       <Header data={landingPageData.Header} />

@@ -1,16 +1,16 @@
 .marker-container {
   position: relative;
-  top: 15rem;
+  top: 5rem;
   left: 50%;
-  margin-left: -17rem;
+  margin-left: -11.5rem;
   width: fit-content;
 }
 
 
 
 .marker {
-  width: 28px;
-  height: 28px;
+  width: 2rem;
+  height: 2rem;
   display: block;
   box-sizing: border-box;
 }
@@ -19,8 +19,8 @@
   content: "";
   width: 22px;
   height: 22px;
-  left: 0;
-  bottom: 1;
+  left: 20;
+  bottom: 7;
   position: absolute;
   border-radius: 50% 50% 0;
   border: 7px solid #555;
@@ -31,7 +31,8 @@
 
 .address {
   color: #777;
-  font-size: 2.3rem;
+  font-size: 1.5rem;
+  text-decoration: none;
   line-height: 2.1rem;
   font-weight: 700;
   margin-left: 4rem;
@@ -41,7 +42,7 @@
   transition-duration: 0.2s;
 
   &:hover {
-    font-size: 2.35rem;
+    font-size: 1.55rem;
     margin-left: 3.8rem;
   }
 }

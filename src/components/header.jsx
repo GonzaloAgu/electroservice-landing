@@ -12,7 +12,7 @@ export const Header = (props) => {
       <WhatsappModal show={showWappModal} onClose={handleCloseBtn}/>
       <div className="intro">
         <div className="overlay">
-          <div className="container">
+          <div className="">
             <AddressPopup/>
             <div className="row">
               <div className="intro-text">

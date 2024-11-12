@@ -3,7 +3,7 @@ import "../styles/marker.css";
 
 export default function AddressPopup() {
   return (
-    <a href="#location">
+    <a href="#location" style={{ textDecoration: 'none' }}>
       <div className="marker-container">
         <div className="marker" />
         <div className="address">

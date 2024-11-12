@@ -99,7 +99,7 @@ hr {
 }
 #menu a.navbar-brand {
   font-family: "digital", sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--title-color);
   text-transform: uppercase;
@@ -247,7 +247,7 @@ a:focus,
 .intro h1 {
   font-family: "digital", sans-serif;
   color: var(--title-color);
-  font-size: 10rem;
+  font-size: 7rem;
 
   /* animation */
   animation-name: main-title;
@@ -273,7 +273,7 @@ a:focus,
 }
 .intro p {
   color: #202020;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 300;
   opacity: 0;
   /* animation */
@@ -312,7 +312,7 @@ a:focus,
 
 header .intro-text {
   margin: auto;
-  padding-top: 350px;
+  padding-top: 19rem;
   padding-bottom: 200px;
   text-align: center;
 }
@@ -342,7 +342,7 @@ header .intro-text {
 /*Location Section*/
 
 #location {
-  background-color: #e8e8e8;;
+  background-color: #e8e8e8;
 }
 #location i.fa {
   font-size: 38px;
