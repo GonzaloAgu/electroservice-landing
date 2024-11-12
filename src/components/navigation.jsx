@@ -2,49 +2,46 @@ import React from "react";
 
 export const Navigation = (props) => {
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top" style={{zIndex: 4}}>
-      <div className="container">
-        <div className="navbar-header">
-          <button
-            type="button"
-            className="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
-          >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-          </button>
-          <a className="navbar-brand" href="#page-top">
-            ELECTROSERVICE
-          </a>{" "}
-        </div>
+    <nav id="menu" className="navbar navbar-expand-lg navbar-light bg-light" style={{ zIndex: 4 }}>
+  <div className="container">
+    <a className="navbar-brand" href="#page-top">
+      ELECTROSERVICE
+    </a>
+    {/* Botón de colapso para móviles */}
+    <button
+      className="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span className="navbar-toggler-icon"></span>
+    </button>
 
-        <div
-          className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
-        >
-          <ul className="nav navbar-nav navbar-right">
-            <li>
-              <a href="#about">
-                Sobre nosotros
-              </a>
-            </li>
-            <li>
-              <a href="#location">
-                Ubicación
-              </a>
-            </li>
-            <li>
-              <a href="#contact">
-                Contacto
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    {/* Menú de navegación */}
+    <div className="collapse navbar-collapse" id="navbarNav">
+      <ul className="navbar-nav ms-auto">
+        <li className="nav-item">
+          <a className="nav-link" href="#about">
+            Sobre nosotros
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#location">
+            Ubicación
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#contact">
+            Contacto
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
   );
 };
