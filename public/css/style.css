@@ -104,27 +104,35 @@ hr {
   color: var(--title-color);
   text-transform: uppercase;
 }
-#menu.navbar-default .navbar-nav > li > a {
+
+.navbar-nav .nav-item .nav-link {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
-  font-size: 15px;
+  color: #666 !important;
+  font-size: 1.1rem;
   font-weight: 400;
   padding: 8px 2px;
-  border-radius: 0;
-  margin: 9px 20px 0;
+  margin:0 20px 0;
+  position: relative;
+  display: inline-block;
 }
-#menu.navbar-default .navbar-nav > li > a:after {
+
+.navbar-nav .nav-item .nav-link:after {
   display: block;
   position: absolute;
   left: 0;
-  bottom: -1px;
+  bottom: 0;
   width: 0;
   height: 2px;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   content: "";
-  transition: width 0.2s;
+  transition: width 0.2s ease-in-out;
 }
+
+.navbar-nav .nav-item .nav-link:hover:after {
+  width: 100%;
+}
+
 #menu.navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
 }
