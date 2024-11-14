@@ -61,8 +61,8 @@ export default function WhatsappModal({show, onClose}) {
 
                 <label>Consulta</label>
                 <textarea value={formData.consulta} name="consulta" onChange={changeHandler} required placeholder="ej: Hola, ¿ya está mi producto disponible para su retiro?" rows={10}></textarea>
-                <button type="submit" className="btn btn-success send-btn">
-                    <i className="fa fa-whatsapp" aria-hidden="true" style={{ fontSize: '2rem' }}></i> Enviar
+                <button type="submit" className="btn send-btn">
+                    <i className="fa fa-whatsapp" aria-hidden="true" style={{ fontSize: '1.3rem' }}></i> Enviar
                 </button>
             </form>
         </div>

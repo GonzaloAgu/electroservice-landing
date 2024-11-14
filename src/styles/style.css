@@ -727,7 +727,7 @@ label {
   position: absolute;
   top: 0; bottom: 0; right: 0; left: 0;
   background-color: rgba(0,0,0,0.5);
-  z-index: 5;
+  z-index: 1021;
 }
 
 .modal-whatsapp {
@@ -824,15 +824,24 @@ label {
 }
 
 .modal-whatsapp .send-btn {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
   margin-top: 1.2rem;
   border-radius: 1rem;
-  font-size: 2rem;
+  font-size: 1.3rem;
+}
+
+.modal-whatsapp .send-btn:hover{
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
 }
 
 @media screen and (max-width: 567px) {
   
   .modal-whatsapp {
-    padding-inline: 0.8rem;
+    padding-inline: 1.4rem;
     border-radius: 2rem;
   }
 
@@ -847,19 +856,18 @@ label {
 
   .modal-whatsapp input,
   .modal-whatsapp textarea {
-    font-size: 0.9rem;
-    height: 2rem;
+    font-size: 1rem;
+    height: 3.2rem;
   }
 
   .modal-whatsapp .form label {
-    margin-top: 0.1rem;
     margin-left: 0.1rem;
     font-size: 1rem;
   }
 
   .modal-whatsapp input::placeholder, 
   .modal-whatsapp textarea::placeholder {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 
   .modal-whatsapp .send-btn {
