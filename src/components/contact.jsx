@@ -8,13 +8,13 @@ export const Contact = (props) => {
         <div className="container">
           <div className="row justify-content-center">
             <div
-              className="col-md-8 contact-col"
+              className="col-md-12 col-lg-8 contact-col"
             >
-              <h2>Encontranos</h2>
+              <h2 className="col-12 text-center">Encontranos</h2>
               <Socials></Socials>
             </div>
             <div
-              className="col-md-3 contact-col"
+              className="col-md-12 col-lg-4 contact-col"
             >
               <div className="contact-info">
                 <div className="contact-item">

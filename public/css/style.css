@@ -417,8 +417,8 @@ header .intro-text {
 #about img {
   border-radius: 20px;
   border: 2px solid gray;
-  width: 420px;
-  height: 400px;
+  width: 90%;
+  aspect-ratio: 1;
   margin: auto;
   background: #fff;
   border-right: 0;
@@ -546,8 +546,6 @@ header .intro-text {
   color: #fff;
   margin-top: 10px;
   padding-bottom: 15px;
-  
-  margin-left: 40px;
 }
 #contact .section-title h2::after {
   position: absolute;
@@ -688,7 +686,7 @@ label {
   }
 
   #contact h2 {
-    margin-left: auto;
+    font-size: 28px;
   }
 
   .contact-col {
