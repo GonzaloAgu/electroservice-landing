@@ -25,7 +25,6 @@ export const Location = (props) => {
     L.marker([-43.26577721547804, -65.28760083033546], {
       icon: customIcon,
     }).addTo(map);
-    map.scrollWheelZoom.disable();
 
     return () => map.remove();
   }, []);
