@@ -7,9 +7,11 @@ import { Testimonials } from "./components/testimonials";
 import { Location } from "./components/Location";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
-import "./App.css";
 import Circuits from "./components/Circuits";
-
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css";
+import "./styles/style.css"
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});

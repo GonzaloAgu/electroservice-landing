@@ -1,10 +1,19 @@
 import React, { useEffect } from "react";
+import { Tooltip } from 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 export const Features = (props) => {
 
   useEffect(()=>{
     document.getElementById('')
   }, [])
+  useEffect(() => {
+    // Inicializar tooltips
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+    tooltipTriggerList.forEach(tooltipTriggerEl => {
+      new Tooltip(tooltipTriggerEl);
+    });
+  }, [props.data]);
+
 
   return (
     <div id="features"  className="text-center section">

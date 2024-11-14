@@ -130,7 +130,7 @@
     {
       "icon": "fa fa-check",
       "title": "Services oficiales",
-      "text": "Service autorizado por la linea <div class=\"tooltip\">Newsan<span class=\"tooltiptext\">Noblex, Atma, Siam, Philco, Sanyo, JVC, Pioneer, Compaq, Braun y MicroLab</span></div>."
+      "text": "Service autorizado por la linea <span id=\"newsan-line\" class=\"\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-title=\"Noblex, Atma, Siam, Philco, Sanyo, JVC, Pioneer, Compaq, Braun y MicroLab\">Newsan</span>."
     }
   ]
 }
