@@ -342,7 +342,7 @@ header .intro-text {
 #features {
   background: #f6f6f6;
 }
-#features i.fa {
+.big-icons > i.fa  {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
@@ -743,7 +743,7 @@ label {
   width: 80%;
   max-width: 55rem;
   min-width: 20rem;
-  border-radius: 4rem;
+  border-radius: 3rem;
   box-shadow: 0px 0px 10px #444;
   transition: all 0.5s;
 }
@@ -759,11 +759,12 @@ label {
 
 .modal-whatsapp .close-btn {
   position: absolute;
-  top: 1.6rem;
-  right: 1.4rem;
+  top: 1rem;
+  color: #555;
+  right: 1rem;
   background: none;
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 3rem;
+  height: 3rem;
   padding: 0rem 1.15rem;
   border: 0;
   border-radius: 50%;
@@ -851,18 +852,17 @@ label {
   }
 
   .modal-whatsapp p {
-    font-size: 0.85rem;
+    font-size: 1.1rem;
   }
 
   .modal-whatsapp input,
   .modal-whatsapp textarea {
     font-size: 1rem;
-    height: 3.2rem;
   }
 
   .modal-whatsapp .form label {
     margin-left: 0.1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .modal-whatsapp input::placeholder, 
