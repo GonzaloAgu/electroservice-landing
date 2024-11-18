@@ -21,19 +21,19 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
-                <button
+                <a
                   href="#features"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   ¡Conocenos!
-                </button>{" "}
+                </a>
                 <button 
                   id="consulta-btn"
                   className="btn btn-custom btn-lg page-scroll"
                   onClick={handleConsultaBtn}
                 >
                   <i className="fa fa-television" aria-hidden="true"></i> mi reparación
-                </button>{" "}
+                </button>
               </div>
             </div>
           </div>
