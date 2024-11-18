@@ -2,7 +2,7 @@ import "../styles/socials.css";
 
 export default function Socials() {
   return (
-    <div className="card">
+    <div className="d-flex justify-content-center col-12">
       <a href="https://wa.me/542804566096" target="_blank" className="socialContainer containerFour"  rel="noopener noreferrer">
         <svg
           className="socialSvg whatsappSvg"

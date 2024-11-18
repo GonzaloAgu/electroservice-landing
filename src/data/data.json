@@ -130,7 +130,7 @@
     {
       "icon": "fa fa-check",
       "title": "Services oficiales",
-      "text": "Service autorizado por la linea <b>Newsan</b>."
+      "text": "Service autorizado por la linea <span id=\"newsan-line\" class=\"\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-title=\"Noblex, Atma, Siam, Philco, Sanyo, JVC, Pioneer, Compaq, Braun y MicroLab\">Newsan <i class=\"fa fa-info-circle\" aria-hidden=\"true\"></i></span>."
     }
   ]
 }

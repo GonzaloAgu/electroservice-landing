@@ -52,17 +52,17 @@ export default function WhatsappModal({show, onClose}) {
                 <p>Si bien algunos campos son opcionales, ingrese toda la información posible para obtener una mejor respuesta.</p>
             </div>
             <form className="form" onSubmit={submitHandler}>
-                <label>Nombre</label>
+                <label>Nombre (*)</label>
                 <input type="text" name="nombre" required value={formData.nombre} onChange={changeHandler}></input>
-                <label>Nº de remito <span className="optional">(opcional)</span></label>
+                <label>Nº de remito </label>
                 <input type="number" name="remito" value={formData.remito} onChange={changeHandler} placeholder="Número provisto al llevar su producto"></input>
-                <label>Producto <span className="optional">(opcional)</span></label>
+                <label>Producto </label>
                 <input type="text" name="producto" value={formData.producto} placeholder="ej: LED Samsung T4300" onChange={changeHandler}></input>
 
-                <label>Consulta</label>
+                <label>Consulta (*)</label>
                 <textarea value={formData.consulta} name="consulta" onChange={changeHandler} required placeholder="ej: Hola, ¿ya está mi producto disponible para su retiro?" rows={10}></textarea>
-                <button type="submit" className="btn btn-success send-btn">
-                    <i className="fa fa-whatsapp" aria-hidden="true" style={{ fontSize: '2rem' }}></i> Enviar
+                <button type="submit" className="btn send-btn">
+                    <i className="fa fa-whatsapp" aria-hidden="true" style={{ fontSize: '1.3rem' }}></i> Enviar
                 </button>
             </form>
         </div>

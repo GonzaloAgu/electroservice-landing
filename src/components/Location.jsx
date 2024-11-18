@@ -25,7 +25,6 @@ export const Location = (props) => {
     L.marker([-43.26577721547804, -65.28760083033546], {
       icon: customIcon,
     }).addTo(map);
-    map.scrollWheelZoom.disable();
 
     return () => map.remove();
   }, []);
@@ -38,7 +37,7 @@ export const Location = (props) => {
       <div className="container">
         <div className="row" style={{ marginBottom: "0px" }}>
           <div
-            className="col-md-10 col-md-offset-1 section-title"
+            className="col-md-offset-1 section-title"
             style={{ marginBottom: "10px" }}
           >
             <h2>¿Donde estamos?</h2>

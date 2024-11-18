@@ -12,7 +12,7 @@ export const Header = (props) => {
       <WhatsappModal show={showWappModal} onClose={handleCloseBtn}/>
       <div className="intro">
         <div className="overlay">
-          <div className="container">
+          <div className="">
             <AddressPopup/>
             <div className="row">
               <div className="intro-text">
@@ -26,14 +26,14 @@ export const Header = (props) => {
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   ¡Conocenos!
-                </a>{" "}
+                </a>
                 <button 
                   id="consulta-btn"
                   className="btn btn-custom btn-lg page-scroll"
                   onClick={handleConsultaBtn}
                 >
                   <i className="fa fa-television" aria-hidden="true"></i> mi reparación
-                </button>{" "}
+                </button>
               </div>
             </div>
           </div>
