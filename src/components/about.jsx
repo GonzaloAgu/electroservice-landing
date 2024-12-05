@@ -6,9 +6,9 @@ export const About = (props) => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-sm-12 col-md-6 d-flex justify-content-center">
-            <img src="img/front.jpg" className="img-responsive" alt="Imagen frontal del local Electroservice" />{" "}
+            <img src="img/front.jpg" className="img-responsive move-up-anim" alt="Imagen frontal del local Electroservice" />{" "}
           </div>
-          <div className="col-sm-12 col-md-6 d-flex justify-content-center">
+          <div className="col-sm-12 col-md-6 d-flex justify-content-center move-up-anim">
             <div className="about-text px-2">
               <h2>Sobre Nosotros</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>

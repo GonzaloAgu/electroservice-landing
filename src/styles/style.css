@@ -894,3 +894,30 @@ label {
   
 }
 
+/* Animaciones */
+
+@keyframes scale-a-lil {
+  from {
+    scale: .5;
+  }
+}
+
+@keyframes move-up-a-lil {
+  from {
+    transform: translateY(8rem);
+  }
+}
+  
+@media (prefers-reduced-motion: no-preference) {
+  .scale-anim {
+    animation: scale-a-lil linear both;
+    animation-timeline: view();
+    animation-range: 0vh 30vh;
+  }
+
+  .move-up-anim {
+    animation: move-up-a-lil linear both;
+    animation-timeline: view();
+    animation-range: 5vh 30vh;
+  }
+}
