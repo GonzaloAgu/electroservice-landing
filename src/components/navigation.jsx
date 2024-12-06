@@ -8,7 +8,7 @@ export const Navigation = (props) => {
       
     >
       <div className="container">
-        <a className="navbar-brand" href="#page-top">
+        <a className="navbar-brand" href="#header">
           ELECTROSERVICE
         </a>
         {/* Botón de colapso para móviles */}

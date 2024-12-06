@@ -3,7 +3,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import mapPin from "../assets/map-pin.svg";
 
-export const Location = (props) => {
+const Location = (props) => {
   useEffect(() => {
     let map = L.map("map").setView(
       [-43.26566721547804, -65.28760083033546],
@@ -55,3 +55,5 @@ export const Location = (props) => {
     </div>
   );
 };
+
+export default Location;
