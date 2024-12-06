@@ -123,11 +123,6 @@
       "text": "Al retirar tu producto, contás con 3 meses de garantía."
     },
     {
-      "icon": "fa fa-search",
-      "title": "Revisión sin costos",
-      "text": "Si tu equipo no tiene arreglo, te lo llevás sin abonar."
-    },
-    {
       "icon": "fa fa-check",
       "title": "Services oficiales",
       "text": "Service autorizado por la linea <span id=\"newsan-line\" class=\"\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-title=\"Noblex, Atma, Siam, Philco, Sanyo, JVC, Pioneer, Compaq, Braun y MicroLab\">Newsan <i class=\"fa fa-info-circle\" aria-hidden=\"true\"></i></span>."
