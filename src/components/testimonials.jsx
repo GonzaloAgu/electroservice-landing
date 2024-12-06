@@ -8,10 +8,10 @@ export const Testimonials = (props) => {
           <h2>Lo que nuestros clientes dicen</h2>
           <p>Estos comentarios recibimos en Google Maps.</p>
         </div>
-        <div className="row scale-anim">
+        <div className="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4">
+                <div key={`${d.name}-${i}`} className="col-md-4 scale-anim">
                   <div className="testimonial">
                     <div className="testimonial-image">
                       {" "}
